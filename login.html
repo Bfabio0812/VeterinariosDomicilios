@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Registro</title>
+    <meta name="description" content="Accede a nuestros servicios veterinarios a domicilio o regístrate para obtener más información sobre cómo cuidar a tus mascotas, especialmente gatos.">
+    <meta name="keywords" content="login, registro, servicios veterinarios, veterinario a domicilio, cuidado de mascotas, emergencia veterinaria, vacunación de mascotas, chequeos de mascotas, servicios para gatos">
+    <meta name="author" content="Nombre de la Empresa">
+    <link rel="icon" href="imagenes/imagen1.png" type="image/png">
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo-container">
+            <img id="logo-preview" src="imagenes/logo.png" alt="Logo de la Empresa">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#testimonios">Testimonios</a></li>
+                <li><a href="login.html">Contacto</a></li>
+                <li><a href="login.html">Registrarse</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="auth" id="auth">
+    <div class="auth-container">
+        <div class="auth-forms">
+            <div class="login-form">
+                <h2>Login</h2>
+                <form>
+                    <label for="login-email">Email:</label>
+                    <input type="email" id="login-email" name="login-email" required>
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" name="login-password" required>
+                    <button type="submit" class="auth-button">Login</button>
+                </form>
+            </div>
+            <div class="register-form">
+                <h2>Registrarse</h2>
+                <form>
+                    <label for="register-email">Email:</label>
+                    <input type="email" id="register-email" name="register-email" required>
+                    <label for="register-password">Password:</label>
+                    <input type="password" id="register-password" name="register-password" required>
+                    <label for="register-password-confirm">Confirm Password:</label>
+                    <input type="password" id="register-password-confirm" name="register-password-confirm" required>
+                    <button type="submit" class="auth-button">Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Nombre de la Empresa. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>
